@@ -1,0 +1,42 @@
+{
+  "photos": [
+    {
+      "src": "assets/gallery/hero.jpg",
+      "alt": "Fire performance"
+    },
+    {
+      "src": "assets/gallery/portfolio-1.jpg",
+      "alt": "Fire dancing 1"
+    },
+    {
+      "src": "assets/gallery/portfolio-2.jpg",
+      "alt": "Fire dancing 2"
+    },
+    {
+      "src": "assets/gallery/portfolio-3.jpg",
+      "alt": "Fire dancing 3"
+    },
+    {
+      "src": "assets/gallery/breathwork-1.jpg",
+      "alt": "Group breathwork"
+    }
+  ],
+  "videos": [
+    {
+      "mp4": "assets/gallery/fire-1.mp4",
+      "poster": "assets/gallery/portfolio-1.jpg"
+    },
+    {
+      "mp4": "assets/gallery/fire-2.mp4",
+      "poster": "assets/gallery/portfolio-2.jpg"
+    },
+    {
+      "mp4": "assets/gallery/fire-3.mp4",
+      "poster": "assets/gallery/portfolio-3.jpg"
+    },
+    {
+      "mp4": "assets/gallery/fire-4.mp4",
+      "poster": "assets/gallery/hero.jpg"
+    }
+  ]
+}

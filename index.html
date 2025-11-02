@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>EmberBreath — Emre Gözübüyük</title>
+<link rel="stylesheet" href="styles.css"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="hero" id="home"><nav class="nav">
+<a href="#about">About</a><a href="#offerings">Offerings</a><a href="#portfolio">Photos</a><a href="#media">Videos</a><a class="btn" href="#book">Book</a>
+</nav><div class="hero-inner"><h1>EMBERBREATH</h1><p class="tagline">Breathwork & Fire Dancing by Emre Gözübüyük</p><a class="btn main-cta" href="#book">Book a Session</a></div></header>
+<main>
+<section id="about" class="section"><div class="about-media"><img class="about-img" src="assets/gallery/about-portrait.jpg" alt="Emre portrait"></div>
+<div class="container"><h2>About</h2><p>I’m Emre, a breathwork practitioner and fire dancer based in Germany.</p></div></section>
+<section id="offerings" class="section alt"><div class="container"><h2>Offerings</h2>
+<div class="cards"><article class="card"><h3>1:1 Breathwork</h3><p>Tailored session.</p><p class="price">€85/session</p></article>
+<article class="card"><h3>Group Sessions</h3><p>Shared experience.</p><p class="price">from €25/person</p></article>
+<article class="card"><h3>Events & Retreats</h3><p>Custom programs & fire performance.</p><p class="price">custom</p></article></div></div></section>
+<section id="portfolio" class="section accent"><div class="container"><h2>Photos</h2><div id="photo-grid" class="portfolio-grid"></div></div></section>
+<section id="media" class="section alt"><div class="container"><h2>Videos</h2><div id="video-grid" class="video-grid"></div></div></section>
+<section id="book" class="section"><div class="container narrow"><h2>Book Me</h2>
+<div class="cta-split"><a class="btn wide" href="https://calendly.com/emberbreath" target="_blank" rel="noopener">Book via Calendly</a>
+<a class="btn outline wide" href="mailto:emre.gozubuyuk222@gmail.com">Email Me</a></div>
+<form class="contact" action="https://formspree.io/f/your-form-id" method="POST">
+<div class="grid"><label><span>Name</span><input type="text" name="name" required></label>
+<label><span>Email</span><input type="email" name="email" required></label></div>
+<label><span>Message</span><textarea name="message" rows="5" placeholder="Tell me what you’re looking for…"></textarea></label>
+<button class="btn" type="submit">Send</button><p class="form-note">By sending this form you agree to the <a href="privacy.html">Privacy Policy</a>.</p></form></div></section>
+<section class="section alt"><div class="container narrow"><h2>FAQ</h2>
+<details><summary>What is a typical breathwork session like?</summary><p>We set intentions, practice guided breathing, then integrate.</p></details>
+<details><summary>Where are you located?</summary><p>Germany; online or in-person.</p></details>
+<details><summary>Do you perform for events?</summary><p>Yes—fire dancing for retreats and events.</p></details></div></section>
+</main>
+<footer class="footer"><div class="container"><p>© <span id="y"></span> EmberBreath — Emre Gözübüyük</p>
+<nav class="footer-links"><a href="impressum.html">Impressum</a><a href="privacy.html">Privacy</a><a href="#home">Top</a></nav></div></footer>
+<script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+<script src="gallery.js"></script><div class="lightbox"><button class="close" aria-label="Close">×</button><img alt=""></div>
+</body></html>
