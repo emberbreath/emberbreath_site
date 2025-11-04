@@ -1,39 +1,25 @@
 {
-  "photos": [
-    {
-      "src": "assets/gallery/hero.jpg",
-      "alt": "Fire performance"
-    },
-    {
-      "src": "assets/gallery/portfolio-1.jpg",
-      "alt": "Fire dancing 1"
-    },
-    {
-      "src": "assets/gallery/portfolio-2.jpg",
-      "alt": "Fire dancing 2"
-    },
-    {
-      "src": "assets/gallery/portfolio-3.jpg",
-      "alt": "Fire dancing 3"
-    },
-    {
-      "src": "assets/gallery/breathwork-1.jpg",
-      "alt": "Group breathwork"
-    }
-  ],
-  "videos": [
-    {
-      "mp4": "assets/gallery/fire-1.mp4",
-      "poster": "assets/gallery/portfolio-1.jpg"
-    },
-    {
-      "mp4": "assets/gallery/fire-2.mp4",
-      "poster": "assets/gallery/portfolio-2.jpg"
-    },
-    {
-      "mp4": "assets/gallery/fire-3.mp4",
-      "poster": "assets/gallery/portfolio-3.jpg"
-    },
+  "photos": {
+    "breath": [
+      { "src": "assets/gallery/breathwork-1.jpg", "alt": "Guided session" },
+      { "src": "assets/gallery/breathwork-2.jpg", "alt": "Group practice" }
+    ],
+    "fire": [
+      { "src": "assets/gallery/portfolio-1.jpg", "alt": "Fire dance 1" },
+      { "src": "assets/gallery/portfolio-2.jpg", "alt": "Fire dance 2" }
+    ]
+  },
+  "videos": {
+    "breath": [
+      { "mp4": "assets/gallery/breath-video-1.mp4", "poster": "assets/gallery/breathwork-1.jpg" }
+    ],
+    "fire": [
+      { "mp4": "assets/gallery/fire-1.mp4", "poster": "assets/gallery/portfolio-1.jpg" },
+      { "mp4": "assets/gallery/fire-2.mp4", "poster": "assets/gallery/portfolio-2.jpg" }
+    ]
+  }
+}
+
     {
       "mp4": "assets/gallery/fire-4.mp4",
       "poster": "assets/gallery/hero.jpg"
