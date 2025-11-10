@@ -1,104 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>EmberBreath — Emre Gözübüyük</title>
-<link rel="stylesheet" href="styles.css"/>
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800;900&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>EmberBreath — Emre Gözübüyük</title>
+
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800;900&display=swap" rel="stylesheet" />
 </head>
 <body>
-<section id="hero" class="hero" style="background-image: url('assets/gallery/entry-photo.jpg');">
-  <div class="hero-content">
-    <h1>Ember Breath</h1>
-    <p>Breathwork • Fire Performance • Connection</p>
-    <a href="#portfolio" class="btn">Explore</a>
-  </div>
-</section>
 
-<a href="#about">About</a><a href="#offerings">Offerings</a><a href="#portfolio">Photos</a><a href="#media">Videos</a><a class="btn" href="#book">Book</a>
-</nav><div class="hero-inner"><h1>EMBERBREATH</h1><p class="tagline">Breathwork & Flow Art</p><a class="btn main-cta" href="#book">Book a Session</a></div></header>
-<main>
-<section id="about" class="section"><div class="about-media"><img class="about-img" src="assets/gallery/about-portrait.jpg" alt="Emre portrait"></div>
-<div class="container"><h2>About</h2><p>Welcoming you warmly. My name is Emre Gözübüyük and I am a professional breathwork practitioner and flow artist based in Germany. I have done my 2 years of breathwork training with the Alchemy of Breath and have been offering sessions online and in presence over 3 years. Next to my breath career I passionately pursue expressing flow arts through led and fire toys. Between ember and breath lies a deep connection to the dance of life and this is where my inspiration resides for all that I offer.   </p></div></section>
-<section id="offerings" class="section alt"><div class="container"><h2>Offerings</h2>
-<div class="cards"><article class="card"><h3>1:1 Breathwork</h3><p>Tailored session.</p><p class="price">€85/session</p></article>
-<article class="card"><h3>Group Sessions</h3><p>Shared experience.</p><p class="price">from €25/person</p></article>
-<article class="card">
-  <h3>Events & Retreats</h3>
-  <p>Custom programs & fire performance.</p>
-  <p class="price">custom</p>
-</article>
-</div></div></section>
-
-<!-- ✅ PHOTO SECTION WITH SUBHEADINGS -->
-<section id="portfolio" class="section accent">
-  <div class="container">
-    <h2>Photos</h2>
-
-    <!-- 🔹 Breath Sessions -->
-    <h3 class="subhead">Breath Sessions</h3>
-    <div id="photo-breath" class="portfolio-grid">
-      <figure>
-        <img src="assets/gallery/breath-festival.jpg" alt="Breath festival outdoor session" loading="lazy">
-      </figure>
-      <figure>
-        <img src="assets/gallery/breath-wild.jpg" alt="Breathwork in nature" loading="lazy">
-      </figure>
-      <figure>
-        <img src="assets/gallery/breath-festival2.jpg" alt="Festival breath circle" loading="lazy">
-      </figure>
-      <figure>
-        <img src="assets/gallery/breath-room.jpg" alt="Indoor breath practice setup" loading="lazy">
-      </figure>
+  <!-- HEADER + NAV -->
+  <header class="site-header">
+    <div class="container">
+      <div class="header-inner">
+        <div class="logo-text">EmberBreath</div>
+        <nav class="nav">
+          <a href="#about">About</a>
+          <a href="#offerings">Offerings</a>
+          <a href="#portfolio">Photos</a>
+          <a href="#media">Videos</a>
+          <a href="#book" class="btn">Book</a>
+        </nav>
+      </div>
     </div>
+  </header>
 
-    <!-- 🔹 Fire Performance -->
-    <h3 class="subhead">Fire Performance</h3>
-    <div id="photo-fire" class="portfolio-grid">
-      <figure>
-        <img src="assets/gallery/fire-dance.jpg" alt="Fire dance in nature" loading="lazy">
-      </figure>
-      <figure>
-        <img src="assets/gallery/fire-1.jpg" alt="Fire spinning performance 1" loading="lazy">
-      </figure>
-      <figure>
-        <img src="assets/gallery/fire-2.jpg" alt="Fire spinning performance 2" loading="lazy">
-      </figure>
+  <!-- HERO -->
+  <section id="home" class="hero" style="background-image: url('assets/gallery/entry-photo.jpg');">
+    <div class="hero-overlay">
+      <div class="hero-content">
+        <h1>Ember Breath</h1>
+        <p class="tagline">Breathwork • Fire Performance • Connection</p>
+        <a href="#portfolio" class="btn main-cta">Explore the Journey</a>
+      </div>
     </div>
-  </div>
-</section>
+  </section>
 
+  <main>
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="about-media">
+        <img class="about-img" src="assets/gallery/about-portrait.jpg" alt="Emre portrait" />
+      </div>
+      <div class="container">
+        <h2>About</h2>
+        <p>
+          Welcoming you warmly. My name is Emre Gözübüyük and I am a professional breathwork practitioner
+          and flow artist based in Germany. I completed a two-year breathwork training with Alchemy of Breath
+          and have been offering sessions online and in person for over three years.
+        </p>
+        <p>
+          Alongside my breathwork practice, I passionately explore flow arts with LED and fire props. Between ember
+          and breath lies a deep connection to the dance of life, and this is where my inspiration resides for all that I offer.
+        </p>
+      </div>
+    </section>
 
-<!-- ✅ NEW VIDEO SECTION WITH SUBHEADINGS -->
-<section id="media" class="section alt">
-  <div class="container">
-    <h2>Videos</h2>
+    <!-- OFFERINGS -->
+    <section id="offerings" class="section alt">
+      <div class="container">
+        <h2>Offerings</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>1:1 Breathwork</h3>
+            <p>Personalized breath journeys tailored to your body, nervous system and intentions.</p>
+            <p class="price">€85 / session</p>
+          </article>
 
-    <!-- Breath Sessions -->
-    <h3 class="subhead">Breath Sessions</h3>
-    <div id="video-breath" class="video-grid"></div>
+          <article class="card">
+            <h3>Group Sessions</h3>
+            <p>Shared experiences for circles, communities and teams — in person or online.</p>
+            <p class="price">from €25 / person</p>
+          </article>
 
-    <!-- Fire Performance -->
-    <h3 class="subhead">Fire Performance</h3>
-    <div id="video-fire" class="video-grid"></div>
-  </div>
-</section>
-<section id="book" class="section"><div class="container narrow"><h2>Book Me</h2>
-<div class="cta-split"><a class="btn wide" href="https://calendly.com/emberbreath" target="_blank" rel="noopener">Book via Calendly</a>
-<a class="btn outline wide" href="mailto:emre.gozubuyuk222@gmail.com">Email Me</a></div>
-<form class="contact" action="https://formspree.io/f/your-form-id" method="POST">
-<div class="grid"><label><span>Name</span><input type="text" name="name" required></label>
-<label><span>Email</span><input type="email" name="email" required></label></div>
-<label><span>Message</span><textarea name="message" rows="5" placeholder="Tell me what you’re looking for…"></textarea></label>
-<button class="btn" type="submit">Send</button><p class="form-note">By sending this form you agree to the <a href="privacy.html">Privacy Policy</a>.</p></form></div></section>
-<section class="section alt"><div class="container narrow"><h2>FAQ</h2>
-<details><summary>What is a typical breathwork session like?</summary><p>We set intentions, practice guided breathing, then integrate.</p></details>
-<details><summary>Where are you located?</summary><p>Germany; online or in-person.</p></details>
-<details><summary>Do you perform for events?</summary><p>Yes—fire dancing for retreats and events.</p></details></div></section>
-</main>
-<footer class="footer"><div class="container"><p>© <span id="y"></span> EmberBreath — Emre Gözübüyük</p>
-<nav class="footer-links"><a href="impressum.html">Impressum</a><a href="privacy.html">Privacy</a><a href="#home">Top</a></nav></div></footer>
-<script>document.getElementById('y').textContent = new Date().getFullYear();</script>
-<script src="gallery.js"></script><div class="lightbox"><button class="close" aria-label="Close">×</button><img alt=""></div>
-</body></html>
+          <article class="card">
+            <h3>Events &amp; Retreats</h3>
+            <p>Custom breathwork, flow arts and fire performance for festivals, retreats and gatherings.</p>
+            <p class="price">on request</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PHOTOS -->
+    <section id="portfolio" class="section accent">
+      <div class="container">
+        <h2>Photos</h2>
+
+        <!-- BREATH SESSIONS -->
+        <h3 class="subhead">Breath Sessions</h3>
+        <div class="portfolio-grid">
+          <figure>
+            <img src="assets/gallery/breath-festival.jpg" alt="Breath festival outdoor session" loading="lazy" />
+          </figure>
+          <figure>
+            <img src="assets/gallery/breath-wild.jpg" alt="Breathwork in nature" loading="lazy" />
+          </figure>
+          <figure>
+            <img src="assets/gallery/breath-festival2.jpg" alt="Festival breath circle" loading="lazy" />
+          </figure>
+          <figure>
+            <img src="assets/gallery/breath-room.jpg" alt="Indoor breath practice setup" loading="lazy" />
+          </figure>
+        </div>
+
+        <!-- FIRE PERFORMANCE -->
+        <h3 class="subhead">Fire Performance</h3>
+        <div class="portfolio-grid">
+          <figure>
+            <img src="assets/gallery/fire-dance.jpg" alt="Fire dance in nature" loading="lazy" />
+          </figure>
+          <figure>
+            <img src="assets/gallery/fire-1.jpg" alt="Fire spinning performance 1" loading="lazy" />
+          </figure>
+          <figure>
+            <img src="assets/gallery/fire-2.jpg" alt="Fire spinning performance 2" loading="lazy" />
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- VIDEOS -->
+    <section id="media" class="section alt">
+      <div class="container">
+        <h2>Videos</h2>
+
+        <!-- Breath Sessions (placeholder for future clips) -->
+        <h3 class="subhead">Breath Sessions</h3>
+        <div class="video-grid">
+          <p style="font-size:0.95rem; color:var(--muted);">
+            Breathwork video clips coming soon.
+          </p>
+        </div>
+
+        <!-- Fire Performance -->
+        <h3 class="subhead">Fire Performance</h3>
+        <div class="video-grid">
+          <video controls playsinline preload="metadata" poster="assets/gallery/fire-dance.jpg">
+            <source src="assets/gallery/fire-1.mp4" type="video/mp4" />
+            Sorry, your browser can’t play this video.
+          </video>
+
+          <video controls playsinline preload="metadata" poster="assets/gallery/fire-1.jpg">
+            <source src="assets/gallery/fire-2.mp4" type="video/mp4" />
+          </video>
+
+          <video controls playsinline preload="metadata" poster="assets/gallery/fire-2.jpg">
+            <source src="assets/gallery/fire-3.mp4" type="video/mp4" />
+          </video>
+
+          <video controls playsinline preload="metadata" poster="assets/gallery/fire-2.jpg">
+            <source src="assets/gallery/fire-4.mp4" type="video/mp4" />
+          </video>
+        </div>
+      </div>
+    </section>
+
+    <!-- BOOKING -->
+    <section id="book" class="section">
+      <div class="container narrow">
+        <h2>Book Me</h2>
+        <p>
+          Choose a time that works for you, or send a message with your questions. I’m based in Germany and
+          offer sessions in English.
+        </p>
+        <div class="cta-split">
+          <a class="btn wide" href="https://calendly.com/emberbreath" target="_blank" rel="noopener">Book via Calendly</a>
+          <a class="btn outline wide" href="mailto:emre.gozubuyuk222@gmail.com">Email Me</a>
+        </div>
+
+        <form class="contact" action="https://formspree.io/f/your-form-id" method="POST">
+          <div class="grid">
+            <label>
+              <span>Name</span>
+              <input type="text" name="name" required />
+            </label>
+            <label>
+              <span>Email</span>
+              <input type="email" name="email" required />
+            </label>
+          </div>
+          <label>
+            <span>Message</span>
+            <textarea name="message" rows="5" placeholder="Tell me what you’re looking for…"></textarea>
+          </label>
+          <button class="btn" type="submit">Send</button>
+          <p class="form-note">
+            By sending this form you agree to the
+            <a href="privacy.html">Privacy Policy</a>.
+          </p>
+        </form>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section alt">
+      <div class="container narrow">
+        <h2>FAQ</h2>
+        <details>
+          <summary>What is a typical breathwork session like?</summary>
+          <p>We set intentions, practice guided breathing, then integrate with grounding and space for reflection.</p>
+        </details>
+        <details>
+          <summary>Where are you located?</summary>
+          <p>I’m based in Germany and available for online and in-person sessions.</p>
+        </details>
+        <details>
+          <summary>Do you perform for events?</summary>
+          <p>Yes — I offer fire dancing and breathwork for festivals, retreats and private events.</p>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="y"></span> EmberBreath — Emre Gözübüyük</p>
+      <nav class="footer-links">
+        <a href="impressum.html">Impressum</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="#home">Top</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
