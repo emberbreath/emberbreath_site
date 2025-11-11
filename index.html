@@ -9,6 +9,10 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800;900&display=swap" rel="stylesheet" />
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+
 </head>
 <body>
 
@@ -86,42 +90,56 @@
     </section>
 
     <!-- PHOTOS -->
-    <section id="portfolio" class="section accent">
-      <div class="container">
-        <h2>Photos</h2>
+<section id="portfolio" class="section accent">
+  <div class="container">
+    <h2>Photos</h2>
 
-        <!-- BREATH SESSIONS -->
-        <h3 class="subhead">Breath Sessions</h3>
-        <div class="portfolio-grid">
-          <figure>
-            <img src="assets/gallery/breath-festival1.jpg" alt="Breath-festival1" loading="lazy" />
-          </figure>
-          <figure>
-            <img src="assets/gallery/breath-wild.jpg" alt="Breathwork in nature" loading="lazy" />
-          </figure>
-          <figure>
-            <img src="assets/gallery/breath-festival2.jpg" alt="Festival breath circle" loading="lazy" />
-          </figure>
-          <figure>
-            <img src="assets/gallery/breath-room.jpg" alt="Indoor breath practice setup" loading="lazy" />
-          </figure>
-        </div>
+    <!-- 🔹 Breath Sessions -->
+    <h3 class="subhead">Breath Sessions</h3>
+    <div class="portfolio-grid">
+      <figure>
+        <a href="assets/gallery/breath-festival1.jpg" class="glightbox" data-gallery="breath">
+          <img src="assets/gallery/breath-festival1.jpg" alt="Breath-festival1" loading="lazy" />
+        </a>
+      </figure>
+      <figure>
+        <a href="assets/gallery/breath-wild.jpg" class="glightbox" data-gallery="breath">
+          <img src="assets/gallery/breath-wild.jpg" alt="Breathwork in nature" loading="lazy" />
+        </a>
+      </figure>
+      <figure>
+        <a href="assets/gallery/breath-festival2.jpg" class="glightbox" data-gallery="breath">
+          <img src="assets/gallery/breath-festival2.jpg" alt="Festival breath circle" loading="lazy" />
+        </a>
+      </figure>
+      <figure>
+        <a href="assets/gallery/breath-room.jpg" class="glightbox" data-gallery="breath">
+          <img src="assets/gallery/breath-room.jpg" alt="Indoor breath practice setup" loading="lazy" />
+        </a>
+      </figure>
+    </div>
 
-        <!-- FIRE PERFORMANCE -->
-        <h3 class="subhead">Fire Performance</h3>
-        <div class="portfolio-grid">
-          <figure>
-            <img src="assets/gallery/fire-dance.jpg" alt="Fire dance in nature" loading="lazy" />
-          </figure>
-          <figure>
-            <img src="assets/gallery/fire-1.jpg" alt="Fire spinning performance 1" loading="lazy" />
-          </figure>
-          <figure>
-            <img src="assets/gallery/fire-2.jpg" alt="Fire spinning performance 2" loading="lazy" />
-          </figure>
-        </div>
-      </div>
-    </section>
+    <!-- 🔹 Fire Performance -->
+    <h3 class="subhead">Fire Performance</h3>
+    <div class="portfolio-grid">
+      <figure>
+        <a href="assets/gallery/fire-dance.jpg" class="glightbox" data-gallery="fire">
+          <img src="assets/gallery/fire-dance.jpg" alt="Fire dance in nature" loading="lazy" />
+        </a>
+      </figure>
+      <figure>
+        <a href="assets/gallery/fire-1.jpg" class="glightbox" data-gallery="fire">
+          <img src="assets/gallery/fire-1.jpg" alt="Fire spinning performance 1" loading="lazy" />
+        </a>
+      </figure>
+      <figure>
+        <a href="assets/gallery/fire-2.jpg" class="glightbox" data-gallery="fire">
+          <img src="assets/gallery/fire-2.jpg" alt="Fire spinning performance 2" loading="lazy" />
+        </a>
+      </figure>
+    </div>
+  </div>
+</section>
 
     <!-- VIDEOS -->
     <section id="media" class="section alt">
@@ -231,5 +249,15 @@
   <script>
     document.getElementById('y').textContent = new Date().getFullYear();
   </script>
+  <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+<script>
+  const lightbox = GLightbox({
+    selector: '.glightbox',
+    touchNavigation: true,
+    loop: true,
+    closeButton: true
+  });
+</script>
+
 </body>
 </html>
